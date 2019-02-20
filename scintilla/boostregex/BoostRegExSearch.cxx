@@ -1,3 +1,4 @@
+#ifdef FUCK
 /**
  * Copyright (c) since 2009 Simon Steele - http://untidy.net/
  * Based on the work of Simon Steele for Programmer's Notepad 2 (http://untidy.net)
@@ -520,4 +521,5 @@ char *BoostRegexSearch::stringToCharPtr(const std::wstring& str, int *lengthRet)
 	*lengthRet = charSize;
 	return c;
 }
+#endif
 #endif

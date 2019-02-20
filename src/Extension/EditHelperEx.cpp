@@ -1,6 +1,8 @@
 #include "EditHelperEx.h"
-#include <boost/regex.hpp>
 #include "../scintilla/src/UniConversion.h"
+#include <string>
+#include <regex>
+//#include <WinUser.h>
 
 extern "C"
 {
@@ -174,7 +176,7 @@ extern "C"
   {
     try
     {
-      boost::regex reg(str, boost::regex_constants::ECMAScript);
+      std::regex reg(str, std::regex_constants::ECMAScript);
       return 1;
     }
     catch (...)
