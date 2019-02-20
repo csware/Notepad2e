@@ -28,7 +28,7 @@
 #define N2E_SELECT_MAX_SIZE 0xff
 #define N2E_SELECT_MAX_COUNT 0xff
 
-BOOL bHighlightSelection = TRUE;
+BOOL bHighlightSelection = FALSE;
 BOOL bEditSelection = FALSE;
 BOOL bHighlightAll = TRUE;
 BOOL bEditSelectionInit = FALSE;
